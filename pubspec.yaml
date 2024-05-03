@@ -1,0 +1,44 @@
+name: bb_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image:
+  flutter_svg: ^1.1.6
+  flutter_staggered_grid_view: ^0.7.0
+  intl: ^0.18.0
+  file_picker:
+  sizer:
+  dio:
+  fluttertoast: ^8.2.2
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/img_436782001.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Rubik
+      fonts: 
+        - asset: assets/fonts/RubikRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/RubikRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RubikRomanSemiBold.ttf
+          weight: 600
